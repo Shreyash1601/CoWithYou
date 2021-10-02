@@ -1,0 +1,24 @@
+
+.image
+{
+    background-image: url('./CoWithYou Logo.png');
+    background-size: auto;
+
+    height: 500px;
+    width: 630px;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 4px 4px black
+}
+
+.bg{
+    background-color:white;
+    height: 100vh;
+    width:100vw;
+    border: 5px solid black;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+}   

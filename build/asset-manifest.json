@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b1a9aab.chunk.css",
+    "main.js": "/static/js/main.1d3c7710.chunk.js",
+    "main.js.map": "/static/js/main.1d3c7710.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e7894f88.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e7894f88.js.map",
+    "static/js/2.4eabce8d.chunk.js": "/static/js/2.4eabce8d.chunk.js",
+    "static/js/2.4eabce8d.chunk.js.map": "/static/js/2.4eabce8d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2b1a9aab.chunk.css.map": "/static/css/main.2b1a9aab.chunk.css.map",
+    "static/js/2.4eabce8d.chunk.js.LICENSE.txt": "/static/js/2.4eabce8d.chunk.js.LICENSE.txt",
+    "static/media/Splash.css": "/static/media/CoWithYou Logo.a39a35d6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7894f88.js",
+    "static/js/2.4eabce8d.chunk.js",
+    "static/css/main.2b1a9aab.chunk.css",
+    "static/js/main.1d3c7710.chunk.js"
+  ]
+}
