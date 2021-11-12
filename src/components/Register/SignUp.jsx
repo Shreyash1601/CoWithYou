@@ -15,7 +15,7 @@ const SignUp=()=>{
     const handleInputs=(e)=>{
         name=e.target.name;
         value=e.target.value
-        if(!name||!name)
+        if(!name||!value)
         window.alert("ERROR")
         else
         setUser({...user,[name]:value})
@@ -79,7 +79,7 @@ const SignUp=()=>{
                     <div id="Submit">
                     <input type="submit" name="signup" id="signup" className="form-submit" value="REGISTER" onClick={PostData}/>
                     </div>
-                    <a href="../Login/Login.jsx">Login</a>
+                    <a href="/Login">Login</a>
                     </div>
                 </form>
             </div>

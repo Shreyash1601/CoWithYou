@@ -32,6 +32,7 @@ email,password
   }
   else{
     window.alert("Succesfully LoggedIn")
+    window.location.href="/gateway"
   }
 }
   
@@ -58,7 +59,8 @@ email,password
               Sign In
             </button>
             </div>
-            <a href="../Register/SignUp.jsx">Register</a>
+            <h4 style={{textAlign:"center",fontSize:"25px",textDecoration:"none"}}><a href="/SignUp">Or 
+            Register Now!!</a></h4>
           </form>
           </div>
           </div>

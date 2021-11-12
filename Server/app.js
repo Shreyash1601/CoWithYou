@@ -4,7 +4,6 @@ require("./db/conn")
 const app=express()
 app.use(express.json())
 app.use(require("./Router/auth"))
-// app.use("/Login",require("./Router/auth"))
 app.get("/",(req,res)=>{
     res.send("Hello World!!!")
 })

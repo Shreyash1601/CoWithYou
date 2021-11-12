@@ -1,5 +1,8 @@
 const express=require("express")
 const jwt=require("jsonwebtoken")
+var token
+const products=require("../models/products");
+
 const bcrypt=require("bcrypt")
 require("../db/conn")
 const User=require("../models/Users")
@@ -49,7 +52,7 @@ router.post("/Login",async (req,res)=>{
 
         if(UserLogin){
             const isMatch=await bcrypt.compare(password,UserLogin.password)
-            const token= await UserLogin.generateAuthToken();
+            token= await UserLogin.generateAuthToken();
             console.log(token)
             res.cookie("jwttoken",token,{
                 httpOnly:true
@@ -67,5 +70,27 @@ router.post("/Login",async (req,res)=>{
     catch(err){
         console.log(err)
     }
+})
+
+//Donor route
+router.post("/Donor", async (req,res)=>{
+    const {Pname,PMD,PED,Contact,PDescription}=req.body;
+    console.log(req.body)
+    if(!Pname||!PMD||!PED||!Contact||!PDescription)
+    {
+        return res.status(400).json({error:"One or more field is empty"})
+    }
+    const pro=new products({Pname,PMD,PED,Contact,PDescription});
+    pro.save().then(()=>{
+        res.status(200).json({message:"Product added successfully"})
+    }).catch((err)=>{
+        console.log(err);
+        res.status(400).json({error:"Failed to upload"})})
+})
+//Patient route
+
+router.get("/Patient",async (req,res)=>{
+    const PRO=await products.find()
+    res.send(PRO)
 })
 module.exports=router

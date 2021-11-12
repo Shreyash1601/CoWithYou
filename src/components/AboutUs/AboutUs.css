@@ -1,0 +1,34 @@
+.container4{
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+    font-size: 30px;
+    background-color:white
+}
+.Contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: bold;
+}
+#header4{
+    font-size: 30px;
+    border:5px solid white;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    height:2.5em;
+    width:100%;
+    background-color:rgb(23, 169, 236);
+}
+.Logo14{
+    height:65px;
+    width:65px;
+}
+.Logo24{
+    height:65px;
+    width:65px;
+}

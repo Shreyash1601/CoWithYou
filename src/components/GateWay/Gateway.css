@@ -1,0 +1,70 @@
+.container3{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width:100vw;
+    height:100vh;
+    background-color:white
+}
+.Options{
+    display: flex;
+    margin:auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.OpDonor{
+    height: 200px;
+    width:200px;
+    margin-right: 100px;
+    background-image: url("./donor.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+text-align: center;
+border:10px solid rgb(23,169,236);
+border-radius: 10%;
+}
+.AboutUs{
+    height: 200px;
+    width:260px;
+    margin-right: 120px;
+    background-image: url("./CoWithYou Logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+text-align: center;
+border:10px solid rgb(23,169,236);
+border-radius: 10%;
+}
+.OpPatient{
+    width:200px;
+height:200px;
+background-image: url("./Patient.jpeg");
+background-size: cover;
+text-align: center;
+border:10px solid rgb(23,169,236);
+border-radius: 10%;
+background-color: pink;
+    color:blue;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#header3{
+    width:100%;
+    background-color: rgb(23,169,236);
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+    font-style:italic;
+}
+.Logo13{
+    height:65px;
+    width:65px;
+}
+.Logo23{
+    height:65px;
+    width:65px;
+    right:0;
+}
