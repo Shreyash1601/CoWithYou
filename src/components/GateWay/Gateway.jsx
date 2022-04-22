@@ -12,16 +12,15 @@ const Gateway=()=>{
    </div>
    <h1 style={{color:"rgb(150,17,202)",margin:"auto"}}>Choose Your Option</h1>
    <div className="Options">
-       <a href="/Donor"><div className="OpDonor">
-       </div></a>
+       <a href="/Donor"><div className="OpDonor"> 
+       </div><h3 style={{color:"rgb(197,42,127)",width:"50px"}}>Donor</h3></a>
        <a href="AboutUs"><div className="AboutUs">
-       </div></a>
-       <a href="/Patient"><div className="OpPatient"></div></a>
-   </div>
-   <div className="banner">
-   <h3 style={{color:"rgb(197,42,127)"}}>Donor</h3>
-   <h3 style={{color:"rgb(197,42,127)"}}>AboutUs</h3>
-   <h3 style={{color:"rgb(197,42,127)"}}>Patient</h3>
+       </div>   <h3 style={{color:"rgb(197,42,127)"}}>AboutUs</h3></a>
+       <a href="/Patient"><div className="OpPatient"></div><h3 style={{color:"rgb(197,42,127)"}}>Patient</h3></a>
+       <a href="/Prediction"><div
+       className="Prediction"></div>
+       <h3 style={{color:"rgb(197,42,127)"}}>Covid Prediction</h3>
+       </a>
    </div>
    </div>
         </>

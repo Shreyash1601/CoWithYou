@@ -2,12 +2,12 @@ import React from 'react'
 import "./App.css"
 import Splash from "./components/SplashScreen/Splash"
 import SignUp from "./components/Register/SignUp"
+import CovidPrediction from "./components/CovidPrediction/CovidPrediction.jsx"
 import Patient from "./components/Patient/Patient"
 import Donor from "./components/Donor/donor"
 import Login from "./components/Login/Login"
 import GateWay from "./components/GateWay/Gateway"
 import {BrowserRouter,Route} from "react-router-dom";
-import Gateway from './components/GateWay/Gateway'
 import AboutUs from './components/AboutUs/AboutUs'
 const App=()=>{
   return(<>
@@ -20,6 +20,7 @@ const App=()=>{
     <Route exact path="/gateway" component={GateWay}/>
     <Route exact path="/Donor" component={Donor}/>
     <Route exact path="/Patient" component={Patient}/>
+    <Route exact path="/Prediction" component={CovidPrediction}/>
     </BrowserRouter>
     </div>
     </>

@@ -1,6 +1,7 @@
 import react from "react";
+import React from 'react';
 import "./Card.css"
-const Card=(props)=>{
+const Card=React.memo(props=>{
     return(
         <>
         <div id="Container1">
@@ -24,5 +25,5 @@ const Card=(props)=>{
         </div>
         </>
     )
-}
+})
 export default Card
